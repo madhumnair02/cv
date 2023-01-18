@@ -1,45 +1,104 @@
-img{
- border-radius: 50%;
- height: 12em;
- margin-right:3em;
- }
-h1,h2{
- color: rgb(115, 2, 150);
- margin-bottom: 0;
-  background-color:rgba(140, 4, 181, 0.073);
-  padding:0.2em;
- }
-  body{
- margin:1em;
- background-color: rgb(222, 230, 249);
-}
-p{
- font-size:22px;
- font-style: italic;
- text-align: left;
- font-weight:lighter
-}
-#edu, #tech_skill{
- font-size: 20px;
- text-align: center;
-}
-th{
- padding-right:1em;
-}
-td{
- padding:0.3em;
-}
-#tech_skill{
- text-align: left;
- }
- hr{
-  border-style:dotted none none;
-  border-width:5px;
-  width: 10%;
-  height:0;
-  color:rgba(115, 2, 150, 0.522);
- }
- li{
-  list-style: none;
- }
- 
+#mypic{
+    border-radius: 50%;
+    height: 12em;
+    margin-right: -11em;
+    margin-left: 14em;
+    }
+   h2{
+    color:#000000;
+     padding:0.2em;
+     text-align: center;
+     text-decoration: dotted;
+     text-decoration-line: underline;
+    }
+    h1{
+     text-align: left;
+     color: #000000;
+     margin-left: 0%;
+    }
+     body{
+    margin:0;
+    align-self: center;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.824);
+    table-layout: fixed;
+   }
+   table{
+    align-items: center;
+   }
+   p{
+    font-size:22px;
+    font-style: italic;
+    text-align: left;
+    font-weight:lighter
+   }
+   #edu, #tech_skill{
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   th{
+    padding-right:1em;
+   }
+   td{
+    padding:0.3em;
+   }
+   #tech_skill{
+    text-align: left;
+    padding: 0.5em;
+     }
+    hr{
+     border-style:dotted none none;
+     border-width:5px;
+     width: 10%;
+     height:0;
+     color: #ffffff;
+    }
+    li{
+     list-style: none;
+    }
+    .intro{
+     background-color:#EAC7C7;
+     width: 100%;
+     height: 20rem;
+     padding: 2rem 2rem 2rem;
+    
+    }
+    .edu{
+      background-color:#A0C3D2;
+       width: 100%;
+       height: 16rem;
+       align-items: center;
+       justify-content: center;
+       padding:0.5em;
+       margin-bottom: 0%;
+    }
+    .tech{
+     background-color: #F7F5EB;
+     width: 100%;
+    }
+    .certificate{
+     background-color: #EAE0DA;
+     margin-top: 0%;
+    }
+    .contact{
+     font-size: 20px;
+     background-color: #f9dee6;
+    }
+    #contact{
+     margin-left: auto;
+      margin-right: auto;
+      margin-top: 0%;
+      padding-top: 0%;
+    }
+    #linkedin_logo,#instagram_logo{
+     border-radius: 50%;
+      height: 3em;
+      margin: 3em 0 3em 3em;
+      margin-left: auto;
+       margin-right: auto;
+    }
+    ul{
+     font-size: 20px;
+    }
